@@ -1,0 +1,25 @@
+ #include <stdio.h>
+ #include <conio.h>
+ void main()
+ 
+ {
+     int a,b,c;
+printf("\n\n Enter twonumbers :\n");
+scanf("%d%d",&a,&b);
+printf("before swapping......\n");
+printf("a=%d\n",a);
+printf("b=%d\n",b);
+
+
+c=a;
+a=b;
+b=c;
+ printf("after swapping......\n");
+ printf("a=%d\n",a);
+ printf("b=%d\n",b);
+ 
+   
+ getch();
+ }
+
+
